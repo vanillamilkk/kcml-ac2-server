@@ -199,27 +199,27 @@ void lilac_ban_client(int client, int cheat)
 
 	switch (cheat) {
 	case CHEAT_ANGLES: { Format(reason, sizeof(reason),
-		"[Little Anti-Cheat %s] %T", PLUGIN_VERSION, "ban_angle", lang); }
+		"[KCML-AC %s] %T", PLUGIN_VERSION, "ban_angle", lang); }
 	case CHEAT_CHATCLEAR: { Format(reason, sizeof(reason),
-		"[Little Anti-Cheat %s] %T", PLUGIN_VERSION, "ban_chat_clear", lang); }
+		"[KCML-AC %s] %T", PLUGIN_VERSION, "ban_chat_clear", lang); }
 	case CHEAT_CONVAR: { Format(reason, sizeof(reason),
-		"[Little Anti-Cheat %s] %T", PLUGIN_VERSION, "ban_convar", lang); }
+		"[KCML-AC %s] %T", PLUGIN_VERSION, "ban_convar", lang); }
 	case CHEAT_NOLERP: { Format(reason, sizeof(reason),
-		"[Little Anti-Cheat %s] %T", PLUGIN_VERSION, "ban_nolerp", lang); }
+		"[KCML-AC %s] %T", PLUGIN_VERSION, "ban_nolerp", lang); }
 	case CHEAT_BHOP: { Format(reason, sizeof(reason),
-		"[Little Anti-Cheat %s] %T", PLUGIN_VERSION, "ban_bhop", lang); }
+		"[KCML-AC %s] %T", PLUGIN_VERSION, "ban_bhop", lang); }
 	case CHEAT_AIMBOT: { Format(reason, sizeof(reason),
-		"[Little Anti-Cheat %s] %T", PLUGIN_VERSION, "ban_aimbot", lang); }
+		"[KCML-AC %s] %T", PLUGIN_VERSION, "ban_aimbot", lang); }
 	case CHEAT_AIMLOCK: { Format(reason, sizeof(reason),
-		"[Little Anti-Cheat %s] %T", PLUGIN_VERSION, "ban_aimlock", lang); }
+		"[KCML-AC %s] %T", PLUGIN_VERSION, "ban_aimlock", lang); }
 	case CHEAT_ANTI_DUCK_DELAY: { Format(reason, sizeof(reason),
-		"[Little Anti-Cheat %s] %T", PLUGIN_VERSION, "ban_anti_duck_delay", lang); }
+		"[KCML-AC %s] %T", PLUGIN_VERSION, "ban_anti_duck_delay", lang); }
 	case CHEAT_NOISEMAKER_SPAM: { Format(reason, sizeof(reason),
-		"[Little Anti-Cheat %s] %T", PLUGIN_VERSION, "ban_noisemaker", lang); }
+		"[KCML-AC %s] %T", PLUGIN_VERSION, "ban_noisemaker", lang); }
 	case CHEAT_MACRO: { Format(reason, sizeof(reason),
-		"[Little Anti-Cheat %s] %T", PLUGIN_VERSION, "ban_macro", lang); }
+		"[KCML-AC %s] %T", PLUGIN_VERSION, "ban_macro", lang); }
 	case CHEAT_NEWLINE_NAME: { Format(reason, sizeof(reason),
-		"[Little Anti-Cheat %s] %T", PLUGIN_VERSION, "ban_name_newline", lang); }
+		"[KCML-AC %s] %T", PLUGIN_VERSION, "ban_name_newline", lang); }
 	default: return;
 	}
 
