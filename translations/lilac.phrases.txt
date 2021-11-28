@@ -8,13 +8,13 @@
 
 	"kick_query_failure"
 	{
-		"en"		"[KCML-AC] Query response failure"
+		"en"		"Query response failure"
 	}
 
 	"kick_interp_exploit"
 	{
 		"#format"	"{1:.0f},{2:d},{3:.3f}"
-		"en"		"[KCML-AC] Your interp is too high ({1}ms / {2}ms max). Please set your cl_interp back to {3} or lower"
+		"en"		"Your interp is too high ({1}ms / {2}ms max). Please set your cl_interp back to {3} or lower"
 	}
 
 	"tban_ping_high"
@@ -25,57 +25,57 @@
 
 	"kick_ban_generic"
 	{
-		"en"		"[KCML-AC] You have been banned from this server"
+		"en"		"You have been banned from this server"
 	}
 
 	"ban_angle"
 	{
-		"en"		"[KCML-AC] Angle-Cheats Detected"
+		"en"		"Angle-Cheats Detected"
 	}
 
 	"ban_chat_clear"
 	{
-		"en"		"[KCML-AC] Chat-Clear Detected"
+		"en"		"Chat-Clear Detected"
 	}
 
 	"ban_convar"
 	{
-		"en"		"[KCML-AC] Invalid ConVar Detected"
+		"en"		"Invalid ConVar Detected"
 	}
 
 	"ban_nolerp"
 	{
-		"en"		"[KCML-AC] NoLerp Detected"
+		"en"		"NoLerp Detected"
 	}
 
 	"ban_bhop"
 	{
-		"en"		"[KCML-AC] Bhop Detected"
+		"en"		"Bhop Detected"
 	}
 
 	"ban_aimbot"
 	{
-		"en"		"[KCML-AC] Aimbot Detected"
+		"en"		"Aimbot Detected"
 	}
 
 	"ban_aimlock"
 	{
-		"en"		"[KCML-AC] Aimlock Detected"
+		"en"		"Aimlock Detected"
 	}
 
 	"ban_anti_duck_delay"
 	{
-		"en" 		"[KCML-AC] Anti-Duck-Delay Detected"
+		"en" 		"Anti-Duck-Delay Detected"
 	}
 
 	"ban_noisemaker"
 	{
-		"en" 		"[KCML-AC] Infinite Noise Maker Detected"
+		"en" 		"Infinite Noise Maker Detected"
 	}
 
 	"ban_macro"
 	{
-		"en"		"[KCML-AC] Macro Detected"
+		"en"		"Macro Detected"
 	}
 
 	"kick_macro"
