@@ -303,7 +303,7 @@ public Action timer_welcome(Handle timer, int userid)
 	// Perhaps I should check if ANYTHING can ban at all.
 	if (is_player_valid(client) && icvar[CVAR_WELCOME]
 		&& icvar[CVAR_ENABLE] && icvar[CVAR_BAN])
-		PrintToChat(client, "[Lilac] %T", "welcome_msg", client, PLUGIN_VERSION);
+		PrintToChat(client, "%T", "welcome_msg", client, PLUGIN_VERSION);
 }
 
 public Action OnPlayerRunCmd(int client, int& buttons, int& impulse, float vel[3],
