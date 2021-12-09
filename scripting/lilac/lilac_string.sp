@@ -47,7 +47,7 @@ public Action OnClientSayCommand(int client, const char[] command, const char[] 
 	//     clear the chat before banning, otherwise people
 	//     would be confused and think the ban was an error.
 	if (!(is_string_valid(sArgs, flags)) && !(flags & (STRFLAG_NEWLINE | STRFLAG_CRETURN))) {
-		PrintToChat(client, "[Lilac] %T", "chat_invalid_characters", client);
+		PrintToChat(client, "[KCML-AC] %T", "chat_invalid_characters", client);
 		return Plugin_Stop;
 	}
 	else if ((flags & STRFLAG_WIDE_CHAR_SPAM)) {
@@ -55,7 +55,7 @@ public Action OnClientSayCommand(int client, const char[] command, const char[] 
 		//     as explained by 3kliksphilip here: https://youtu.be/hP1N1YRitlM?t=94
 		//     this clears the chat and is annoying.
 		// Block this exploit.
-		PrintToChat(client, "[Lilac] %T", "chat_wide_char_spam", client);
+		PrintToChat(client, "[KCML-AC] %T", "chat_wide_char_spam", client);
 		return Plugin_Stop;
 	}
 
@@ -203,7 +203,7 @@ static void check_name(int client, const char []name)
 
 		// Log only.
 		if (icvar[CVAR_FILTER_NAME] > 0)
-			KickClient(client, "[Lilac] %T", "kick_bad_name", client);
+			KickClient(client, "[KCML-AC] %T", "kick_bad_name", client);
 	}
 }
 

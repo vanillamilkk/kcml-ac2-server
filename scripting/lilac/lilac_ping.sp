@@ -54,7 +54,7 @@ public Action timer_check_ping(Handle timer)
 			if (ping_high[i] < ping_warn[i] - 2 && ping_warn[i] > 0) {
 
 				ping_warn[i] = 0;
-				PrintToChat(i, "[Lilac] Your ping appears to be fine again, it is safe to rejoin a team and play.");
+				PrintToChat(i, "[KCML-AC] Your ping appears to be fine again, it is safe to rejoin a team and play.");
 			}
 
 			continue;
@@ -66,7 +66,7 @@ public Action timer_check_ping(Handle timer)
 
 			ping_warn[i] = ping_high[i];
 
-			PrintToChat(i, "[Lilac] WARNING: You will be kicked in %d seconds if your ping stays too high! (%.0f / %d max)",
+			PrintToChat(i, "[KCML-AC] WARNING: You will be kicked in %d seconds if your ping stays too high! (%.0f / %d max)",
 				100 - (ping_high[i] * 5),
 				ping, icvar[CVAR_MAX_PING]);
 		}
@@ -88,7 +88,7 @@ public Action timer_check_ping(Handle timer)
 		}
 		database_log(i, "high_ping", DATABASE_KICK);
 
-		Format(reason, sizeof(reason), "[Lilac] %T", "tban_ping_high", i,
+		Format(reason, sizeof(reason), "[KCML-AC] %T", "tban_ping_high", i,
 			ping, icvar[CVAR_MAX_PING]);
 
 		// Ban the client for three minutes to avoid instant reconnects.

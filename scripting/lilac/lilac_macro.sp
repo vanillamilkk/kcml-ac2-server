@@ -184,7 +184,7 @@ static void lilac_detected_macro(int client, int type)
 		return;
 
 	if (icvar[CVAR_MACRO_DEAL_METHOD] == 0)
-		KickClient(client, "[Lilac] %T", "kick_macro", client, string);
+		KickClient(client, "[KCML-AC] %T", "kick_macro", client, string);
 	else
 		lilac_ban_client(client, CHEAT_MACRO);
 }

@@ -94,7 +94,7 @@ static void detected_lerp_exploit(int client, float lerp)
 	}
 	database_log(client, "lerp_exploit", DATABASE_KICK, lerp * 1000.0, float(icvar[CVAR_MAX_LERP]));
 
-	KickClient(client, "[Lilac] %T", "kick_interp_exploit", client,
+	KickClient(client, "[KCML-AC] %T", "kick_interp_exploit", client,
 		lerp * 1000.0, icvar[CVAR_MAX_LERP],
 		float(icvar[CVAR_MAX_LERP]) / 999.9);
 }

@@ -143,7 +143,7 @@ void lilac_log(bool cleanup)
 					line[i] = '#';
 			}
 		}
-		IRC_MsgFlaggedChannels("lilac", "[LILAC] %s", line);
+		IRC_MsgFlaggedChannels("lilac", "[KCML-AC] %s", line);
 	}
 	CloseHandle(file);
 }

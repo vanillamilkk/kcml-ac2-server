@@ -91,7 +91,7 @@ public Action timer_query(Handle timer)
 			}
 			database_log(i, "cvar_query_failure", DATABASE_KICK, float(QUERY_MAX_FAILURES), QUERY_TIMER * QUERY_MAX_FAILURES);
 
-			KickClient(i, "[Lilac] %T", "kick_query_failure", i);
+			KickClient(i, "[KCML-AC] %T", "kick_query_failure", i);
 		}
 	}
 
